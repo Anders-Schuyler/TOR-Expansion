@@ -3,6 +3,19 @@ Repository for my unofficial personal expansion for the M&amp;B2: Bannerlord mod
 Currently the mod is "Dirty" meaning that it overwrites the base files in base The Old Realm (TOR) Mod. 
 It is HIGHLY RECOMMENDED that you backup the original files that will be overwritten by the files included in this repo.
 
+File Currently Overwritten:
+TOR_Core
+  ->ModuleData
+    ->tor_custom_xmls
+      tor_extendeditemproperties.xml
+      tor_extendedunitproperties.xml
+    tor_equipment_sets.xml
+    tor_partytemplates.xml
+    tor_troopdefinitions.xml
+TOR_Armory
+  ->tor_items
+    tor_meleeweapons.xml
+
 Current Content:
 Currently the Repo contains a modified Norscan and Warriors of Chaos Troop Tree.
 +Norscan Horsemaster has a higher-Tier mount
