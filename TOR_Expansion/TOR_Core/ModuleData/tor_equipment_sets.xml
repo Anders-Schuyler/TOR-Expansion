@@ -21296,4 +21296,622 @@
       <Equipment slot="Leg" id="Item.tor_empire_leg_boots_light_wizard_001" />
     </EquipmentSet>
   </EquipmentRoster>
+<!-- Chaos Dwarf Equipment Sets-->
+ <!-- Hobgoblins        -->
+<EquipmentRoster id="tor_chaos_dwarf_goblin_slave">
+  <EquipmentSet>
+    <equipment slot="Item0" id="Item.western_spear_2_t2" />
+    <equipment slot="Body" id="Item.baggy_trunks" />
+  </EquipmentSet>
+  <EquipmentSet>
+    <equipment slot="Item0" id="Item.western_spear_2_t2" />
+    <equipment slot="Body" id="Item.battanian_savage_armor" />
+  </EquipmentSet>
+  <EquipmentSet civilian="true">
+    <equipment slot="Item0" id="Item.western_spear_2_t2" />
+    <equipment slot="Body" id="Item.baggy_trunks" />
+  </EquipmentSet>
+  <EquipmentSet civilian="true">
+    <equipment slot="Item0" id="Item.western_spear_2_t2" />
+    <equipment slot="Body" id="Item.battanian_savage_armor" />
+  </EquipmentSet>
+</EquipmentRoster>
+
+<EquipmentRoster id="tor_chaos_dwarf_hobgoblin_wild" culture="Culture.empire">
+  <EquipmentSet>
+    <equipment slot="Item0" id="Item.seax" />
+    <equipment slot="Item1" id="Item.hooked_cleaver" />
+    <equipment slot="Cape" id="Item.battania_shoulder_strap" />
+    <equipment slot="Body" id="Item.armored_baggy_trunks" />
+  </EquipmentSet>
+  <EquipmentSet>
+    <equipment slot="Item0" id="Item.hooked_cleaver" />
+    <equipment slot="Cape" id="Item.battania_shoulder_strap" />
+    <equipment slot="Body" id="Item.armored_baggy_trunks" />
+  </EquipmentSet>
+  <EquipmentSet>
+    <equipment slot="Item0" id="Item.seax" />
+    <equipment slot="Item1" id="Item.hooked_cleaver" />
+    <equipment slot="Body" id="Item.studded_leather_waistcoat" />
+  </EquipmentSet>
+  <EquipmentSet>
+    <equipment slot="Item0" id="Item.hooked_cleaver" />
+    <equipment slot="Body" id="Item.studded_leather_waistcoat" />
+  </EquipmentSet>
+  <EquipmentSet civilian="true">
+    <equipment slot="Item0" id="Item.seax" />
+    <equipment slot="Item1" id="Item.hooked_cleaver" />
+    <equipment slot="Cape" id="Item.battania_shoulder_strap" />
+    <equipment slot="Body" id="Item.armored_baggy_trunks" />
+  </EquipmentSet>
+  <EquipmentSet civilian="true">
+    <equipment slot="Item0" id="Item.hooked_cleaver" />
+    <equipment slot="Cape" id="Item.battania_shoulder_strap" />
+    <equipment slot="Body" id="Item.armored_baggy_trunks" />
+  </EquipmentSet>
+  <EquipmentSet civilian="true">
+    <equipment slot="Item0" id="Item.seax" />
+    <equipment slot="Item1" id="Item.hooked_cleaver" />
+    <equipment slot="Body" id="Item.studded_leather_waistcoat" />
+  </EquipmentSet>
+  <EquipmentSet civilian="true">
+    <equipment slot="Item0" id="Item.hooked_cleaver" />
+    <equipment slot="Body" id="Item.studded_leather_waistcoat" />
+  </EquipmentSet>
+</EquipmentRoster>
+
+  <EquipmentRoster id="tor_chaos_dwarf_hobgoblin_cutthroat" culture="Culture.empire">
+    <EquipmentSet>
+      <equipment slot="Item0" id="Item.falchion_sword_t2" />
+      <equipment slot="Item3" id="Item.bound_desert_round_shield" />
+      <equipment slot="Head" id="Item.upturned_fur_cap" />
+      <equipment slot="Body" id="Item.sleeveless_studded_fur_armor" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <equipment slot="Item0" id="Item.falchion_sword_t2" />
+      <equipment slot="Item3" id="Item.bound_desert_round_shield" />
+      <equipment slot="Head" id="Item.fur_hat" />
+      <equipment slot="Body" id="Item.sleeveless_studded_fur_armor" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <equipment slot="Item0" id="Item.falchion_sword_t2" />
+      <equipment slot="Item3" id="Item.bound_desert_round_shield" />
+      <equipment slot="Head" id="Item.fur_hat" />
+      <equipment slot="Body" id="Item.studded_fur_armor" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <equipment slot="Item0" id="Item.falchion_sword_t2" />
+      <equipment slot="Item3" id="Item.bound_desert_round_shield" />
+      <equipment slot="Head" id="Item.upturned_fur_cap" />
+      <equipment slot="Body" id="Item.studded_fur_armor" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <equipment slot="Item0" id="Item.falchion_sword_t2" />
+      <equipment slot="Item3" id="Item.bound_desert_round_shield" />
+      <equipment slot="Head" id="Item.upturned_fur_cap" />
+      <equipment slot="Body" id="Item.sleeveless_studded_fur_armor" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <equipment slot="Item0" id="Item.falchion_sword_t2" />
+      <equipment slot="Item3" id="Item.bound_desert_round_shield" />
+      <equipment slot="Head" id="Item.fur_hat" />
+      <equipment slot="Body" id="Item.sleeveless_studded_fur_armor" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <equipment slot="Item0" id="Item.falchion_sword_t2" />
+      <equipment slot="Item3" id="Item.bound_desert_round_shield" />
+      <equipment slot="Head" id="Item.fur_hat" />
+      <equipment slot="Body" id="Item.studded_fur_armor" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <equipment slot="Item0" id="Item.falchion_sword_t2" />
+      <equipment slot="Item3" id="Item.bound_desert_round_shield" />
+      <equipment slot="Head" id="Item.upturned_fur_cap" />
+      <equipment slot="Body" id="Item.studded_fur_armor" />
+    </EquipmentSet>
+</EquipmentRoster>
+
+<EquipmentRoster id="tor_chaos_dwarf_hobgoblin_archer">
+  <EquipmentSet>
+    <equipment slot="Item0" id="Item.composite_bow" />
+    <equipment slot="Item1" id="Item.falchion_sword_t2" />
+    <equipment slot="Item2" id="Item.barbed_arrows" />
+    <equipment slot="Head" id="Item.nomad_padded_hood" />
+    <equipment slot="Body" id="Item.sleeveless_studded_fur_armor" />
+  </EquipmentSet>
+  <EquipmentSet civilian="true">
+    <equipment slot="Item0" id="Item.composite_bow" />
+    <equipment slot="Item1" id="Item.falchion_sword_t2" />
+    <equipment slot="Item2" id="Item.barbed_arrows" />
+    <equipment slot="Head" id="Item.nomad_padded_hood" />
+    <equipment slot="Body" id="Item.sleeveless_studded_fur_armor" />
+  </EquipmentSet>
+</EquipmentRoster>
+
+<EquipmentRoster id="tor_chaos_dwarf_hobgoblin_wolf_rider">
+  <EquipmentSet>
+    <equipment slot="Item0" id="Item.eastern_spear_3_t3" />
+    <equipment slot="Item1" id="Item.falchion_sword_t2" />
+    <equipment slot="Item3" id="Item.bound_desert_round_shield" />
+    <equipment slot="Head" id="Item.nomad_padded_hood" />
+    <equipment slot="Body" id="Item.sleeveless_studded_fur_armor" />
+    <equipment slot="Horse" id="Item.khuzait_horse_tournament" />
+    <equipment slot="HorseHarness" id="Item.light_harness" />
+  </EquipmentSet>
+  <EquipmentSet civilian="true">
+    <equipment slot="Item0" id="Item.eastern_spear_3_t3" />
+    <equipment slot="Item1" id="Item.falchion_sword_t2" />
+    <equipment slot="Item3" id="Item.bound_desert_round_shield" />
+    <equipment slot="Head" id="Item.nomad_padded_hood" />
+    <equipment slot="Body" id="Item.sleeveless_studded_fur_armor" />
+    <equipment slot="Horse" id="Item.khuzait_horse_tournament" />
+    <equipment slot="HorseHarness" id="Item.light_harness" />
+  </EquipmentSet>
+</EquipmentRoster>
+
+<EquipmentRoster id="tor_chaos_dwarf_hobgoblin_sneaky_git">
+  <EquipmentSet>
+    <equipment slot="Item0" id="Item.desert_throwing_knife" />
+    <equipment slot="Item1" id="Item.desert_throwing_knife" />
+    <equipment slot="Item2" id="Item.falchion_sword_t2" />
+    <equipment slot="Item3" id="Item.curved_round_shield" />
+    <equipment slot="Head" id="Item.nasal_helmet_over_laced_coif" />
+    <equipment slot="Body" id="Item.desert_robe_over_mail" />
+    <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+    <equipment slot="Leg" id="Item.steppe_leather_boots" />
+  </EquipmentSet>
+  <EquipmentSet>
+    <equipment slot="Item0" id="Item.desert_throwing_knife" />
+    <equipment slot="Item1" id="Item.desert_throwing_knife" />
+    <equipment slot="Item2" id="Item.falchion_sword_t2" />
+    <equipment slot="Item3" id="Item.curved_round_shield" />
+    <equipment slot="Head" id="Item.nasal_helmet_over_laced_coif" />
+    <equipment slot="Body" id="Item.aserai_robe_c_chain" />
+    <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+    <equipment slot="Leg" id="Item.steppe_leather_boots" />
+  </EquipmentSet>
+  <EquipmentSet civilian="true">
+    <equipment slot="Item0" id="Item.desert_throwing_knife" />
+    <equipment slot="Item1" id="Item.desert_throwing_knife" />
+    <equipment slot="Item2" id="Item.falchion_sword_t2" />
+    <equipment slot="Item3" id="Item.curved_round_shield" />
+    <equipment slot="Head" id="Item.nasal_helmet_over_laced_coif" />
+    <equipment slot="Body" id="Item.desert_robe_over_mail" />
+    <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+    <equipment slot="Leg" id="Item.steppe_leather_boots" />
+  </EquipmentSet>
+  <EquipmentSet civilian="true">
+    <equipment slot="Item0" id="Item.desert_throwing_knife" />
+    <equipment slot="Item1" id="Item.desert_throwing_knife" />
+    <equipment slot="Item2" id="Item.falchion_sword_t2" />
+    <equipment slot="Item3" id="Item.curved_round_shield" />
+    <equipment slot="Head" id="Item.nasal_helmet_over_laced_coif" />
+    <equipment slot="Body" id="Item.aserai_robe_c_chain" />
+    <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+    <equipment slot="Leg" id="Item.steppe_leather_boots" />
+  </EquipmentSet>
+</EquipmentRoster>
+
+<EquipmentRoster id="tor_chaos_dwarf_hobgoblin_marksman">
+  <EquipmentSet>
+    <equipment slot="Item0" id="Item.composite_steppe_bow" />
+    <equipment slot="Item1" id="Item.falchion_sword_t2" />
+    <equipment slot="Item2" id="Item.steppe_arrows" />
+    <equipment slot="Head" id="Item.nomad_padded_hood" />
+    <equipment slot="Body" id="Item.belted_leather_cuirass" />
+    <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+    <equipment slot="Leg" id="Item.steppe_leather_boots" />
+  </EquipmentSet>
+  <EquipmentSet civilian="true">
+    <equipment slot="Item0" id="Item.composite_steppe_bow" />
+    <equipment slot="Item1" id="Item.falchion_sword_t2" />
+    <equipment slot="Item2" id="Item.steppe_arrows" />
+    <equipment slot="Head" id="Item.nomad_padded_hood" />
+    <equipment slot="Body" id="Item.belted_leather_cuirass" />
+    <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+    <equipment slot="Leg" id="Item.steppe_leather_boots" />
+  </EquipmentSet>
+</EquipmentRoster>
+
+<EquipmentRoster id="tor_chaos_dwarf_hobgoblin_wolf_raider">
+  <EquipmentSet>
+    <equipment slot="Item0" id="Item.khuzait_lance_1_t3" />
+    <equipment slot="Item1" id="Item.composite_steppe_bow" />
+    <equipment slot="Item2" id="Item.steppe_arrows" />
+    <equipment slot="Item3" id="Item.curved_round_shield" />
+    <equipment slot="Head" id="Item.nasal_helmet_over_laced_coif" />
+    <equipment slot="Cape" id="Item.a_khuzait_leather_shoulder_b_a" />
+    <equipment slot="Body" id="Item.khuzait_sturdy_armor" />
+    <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+    <equipment slot="Leg" id="Item.steppe_leather_boots" />
+    <equipment slot="Horse" id="Item.t2_khuzait_horse" />
+    <equipment slot="HorseHarness" id="Item.steppe_harness" />
+  </EquipmentSet>
+  <EquipmentSet>
+    <equipment slot="Item0" id="Item.khuzait_lance_1_t3" />
+    <equipment slot="Item1" id="Item.composite_steppe_bow" />
+    <equipment slot="Item2" id="Item.steppe_arrows" />
+    <equipment slot="Item3" id="Item.curved_round_shield" />
+    <equipment slot="Head" id="Item.nasal_helmet_over_padded_cloth" />
+    <equipment slot="Cape" id="Item.a_khuzait_leather_shoulder_b_a" />
+    <equipment slot="Body" id="Item.khuzait_sturdy_armor" />
+    <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+    <equipment slot="Leg" id="Item.steppe_leather_boots" />
+    <equipment slot="Horse" id="Item.t2_khuzait_horse" />
+    <equipment slot="HorseHarness" id="Item.steppe_harness" />
+  </EquipmentSet>
+  <EquipmentSet>
+    <equipment slot="Item0" id="Item.khuzait_lance_1_t3" />
+    <equipment slot="Item1" id="Item.composite_steppe_bow" />
+    <equipment slot="Item2" id="Item.steppe_arrows" />
+    <equipment slot="Item3" id="Item.curved_round_shield" />
+    <equipment slot="Head" id="Item.nasal_helmet_over_laced_coif" />
+    <equipment slot="Cape" id="Item.a_khuzait_leather_shoulder_b_a" />
+    <equipment slot="Body" id="Item.khuzait_fortified_armor" />
+    <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+    <equipment slot="Leg" id="Item.steppe_leather_boots" />
+    <equipment slot="Horse" id="Item.t2_khuzait_horse" />
+    <equipment slot="HorseHarness" id="Item.steppe_harness" />
+  </EquipmentSet>
+  <EquipmentSet>
+    <equipment slot="Item0" id="Item.khuzait_lance_1_t3" />
+    <equipment slot="Item1" id="Item.composite_steppe_bow" />
+    <equipment slot="Item2" id="Item.steppe_arrows" />
+    <equipment slot="Item3" id="Item.curved_round_shield" />
+    <equipment slot="Head" id="Item.nasal_helmet_over_laced_coif" />
+    <equipment slot="Cape" id="Item.a_khuzait_leather_shoulder_b_a" />
+    <equipment slot="Body" id="Item.khuzait_sturdy_armor" />
+    <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+    <equipment slot="Leg" id="Item.steppe_leather_boots" />
+    <equipment slot="Horse" id="Item.t2_khuzait_horse" />
+    <equipment slot="HorseHarness" id="Item.steppe_harness" />
+  </EquipmentSet>
+  <EquipmentSet civilian="true">
+    <equipment slot="Item0" id="Item.khuzait_lance_1_t3" />
+    <equipment slot="Item1" id="Item.composite_steppe_bow" />
+    <equipment slot="Item2" id="Item.steppe_arrows" />
+    <equipment slot="Item3" id="Item.curved_round_shield" />
+    <equipment slot="Head" id="Item.nasal_helmet_over_laced_coif" />
+    <equipment slot="Cape" id="Item.a_khuzait_leather_shoulder_b_a" />
+    <equipment slot="Body" id="Item.khuzait_sturdy_armor" />
+    <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+    <equipment slot="Leg" id="Item.steppe_leather_boots" />
+    <equipment slot="Horse" id="Item.t2_khuzait_horse" />
+    <equipment slot="HorseHarness" id="Item.steppe_harness" />
+  </EquipmentSet>
+  <EquipmentSet civilian="true">
+    <equipment slot="Item0" id="Item.khuzait_lance_1_t3" />
+    <equipment slot="Item1" id="Item.composite_steppe_bow" />
+    <equipment slot="Item2" id="Item.steppe_arrows" />
+    <equipment slot="Item3" id="Item.curved_round_shield" />
+    <equipment slot="Head" id="Item.nasal_helmet_over_padded_cloth" />
+    <equipment slot="Cape" id="Item.a_khuzait_leather_shoulder_b_a" />
+    <equipment slot="Body" id="Item.khuzait_sturdy_armor" />
+    <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+    <equipment slot="Leg" id="Item.steppe_leather_boots" />
+    <equipment slot="Horse" id="Item.t2_khuzait_horse" />
+    <equipment slot="HorseHarness" id="Item.steppe_harness" />
+  </EquipmentSet>
+  <EquipmentSet civilian="true">
+    <equipment slot="Item0" id="Item.khuzait_lance_1_t3" />
+    <equipment slot="Item1" id="Item.composite_steppe_bow" />
+    <equipment slot="Item2" id="Item.steppe_arrows" />
+    <equipment slot="Item3" id="Item.curved_round_shield" />
+    <equipment slot="Head" id="Item.nasal_helmet_over_laced_coif" />
+    <equipment slot="Cape" id="Item.a_khuzait_leather_shoulder_b_a" />
+    <equipment slot="Body" id="Item.khuzait_fortified_armor" />
+    <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+    <equipment slot="Leg" id="Item.steppe_leather_boots" />
+    <equipment slot="Horse" id="Item.t2_khuzait_horse" />
+    <equipment slot="HorseHarness" id="Item.steppe_harness" />
+  </EquipmentSet>
+  <EquipmentSet civilian="true">
+    <equipment slot="Item0" id="Item.khuzait_lance_1_t3" />
+    <equipment slot="Item1" id="Item.composite_steppe_bow" />
+    <equipment slot="Item2" id="Item.steppe_arrows" />
+    <equipment slot="Item3" id="Item.curved_round_shield" />
+    <equipment slot="Head" id="Item.nasal_helmet_over_laced_coif" />
+    <equipment slot="Cape" id="Item.a_khuzait_leather_shoulder_b_a" />
+    <equipment slot="Body" id="Item.khuzait_sturdy_armor" />
+    <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+    <equipment slot="Leg" id="Item.steppe_leather_boots" />
+    <equipment slot="Horse" id="Item.t2_khuzait_horse" />
+    <equipment slot="HorseHarness" id="Item.steppe_harness" />
+  </EquipmentSet>
+</EquipmentRoster>
+
+ <!-- Chaos Dwarf Rigger-->
+<EquipmentRoster id="tor_chaos_dwarf_rigger_template" culture="Culture.empire">
+  <EquipmentSet>
+    <Equipment slot="Item0" id="Item.northern_battle_axe_t3" />
+    <Equipment slot="Item1" id="Item." />
+    <Equipment slot="Item2" id="Item." />
+    <Equipment slot="Item3" id="Item." />
+    <Equipment slot="Head" id="Item.brass_aserai_helmet_leather" />
+    <Equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+    <Equipment slot="Cape" id="Item.a_brass_lamellar_shoulder_a" />
+    <Equipment slot="Gloves" id="Item.leather_gloves" />
+    <Equipment slot="Leg" id="Item.wrapped_leather_boots" />
+  </EquipmentSet>
+  <EquipmentSet civilian="true">
+    <Equipment slot="Item0" id="Item.northern_battle_axe_t3" />
+    <Equipment slot="Item1" id="Item." />
+    <Equipment slot="Item2" id="Item." />
+    <Equipment slot="Item3" id="Item." />
+    <Equipment slot="Head" id="Item.brass_aserai_helmet_leather" />
+    <Equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+    <Equipment slot="Cape" id="Item.a_brass_lamellar_shoulder_a" />
+    <Equipment slot="Gloves" id="Item.leather_gloves" />
+    <Equipment slot="Leg" id="Item.wrapped_leather_boots" />
+  </EquipmentSet>
+</EquipmentRoster>
+ <!-- Chaos Dwarf Warrior-->
+ <EquipmentRoster id="tor_chaos_dwarf_warrior_template" culture="Culture.empire">
+  <EquipmentSet>
+    <Equipment slot="Item0" id="Item.sturgia_axe_5_t5" />
+    <Equipment slot="Item1" id="Item." />
+    <Equipment slot="Item2" id="Item." />
+    <Equipment slot="Item3" id="Item.desert_round_shield" />
+    <Equipment slot="Head" id="Item.tor_tilean_head_helm_brass_knight_001" />
+    <Equipment slot="Body" id="Item.aserai_chain_plate_armor_a" />
+    <Equipment slot="Cape" id="Item.aserai_scale_shoulder_c" />
+    <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+    <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+  </EquipmentSet>
+  <EquipmentSet civilian="true">
+    <Equipment slot="Item0" id="Item.sturgia_axe_5_t5" />
+    <Equipment slot="Item1" id="Item." />
+    <Equipment slot="Item2" id="Item." />
+    <Equipment slot="Item3" id="Item.desert_round_shield" />
+    <Equipment slot="Head" id="Item.tor_tilean_head_helm_brass_knight_001" />
+    <Equipment slot="Body" id="Item.aserai_chain_plate_armor_a" />
+    <Equipment slot="Cape" id="Item.aserai_scale_shoulder_c" />
+    <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+    <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+  </EquipmentSet>
+</EquipmentRoster>
+ <!-- Chaos Dwarf Warrior Greatweapon-->
+ <EquipmentRoster id="tor_chaos_dwarf_warrior_greatweapon_template" culture="Culture.empire">
+  <EquipmentSet>
+    <Equipment slot="Item0" id="Item.tor_chaos_2h_weapon_warrior_greataxe_001" />
+    <Equipment slot="Item1" id="Item." />
+    <Equipment slot="Item2" id="Item." />
+    <Equipment slot="Item3" id="Item." />
+    <Equipment slot="Head" id="Item.tor_tilean_head_helm_brass_knight_001" />
+    <Equipment slot="Body" id="Item.aserai_chain_plate_armor_a" />
+    <Equipment slot="Cape" id="Item.aserai_scale_shoulder_c" />
+    <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+    <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+  </EquipmentSet>
+  <EquipmentSet civilian="true">
+    <Equipment slot="Item0" id="Item.tor_chaos_2h_weapon_warrior_greataxe_001" />
+    <Equipment slot="Item1" id="Item." />
+    <Equipment slot="Item2" id="Item." />
+    <Equipment slot="Item3" id="Item." />
+    <Equipment slot="Head" id="Item.tor_tilean_head_helm_brass_knight_001" />
+    <Equipment slot="Body" id="Item.aserai_chain_plate_armor_a" />
+    <Equipment slot="Cape" id="Item.aserai_scale_shoulder_c" />
+    <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+    <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+  </EquipmentSet>
+</EquipmentRoster>
+ <!-- Chaos Dwarf Crossbow-->
+ <EquipmentRoster id="tor_chaos_dwarf_warrior_greatweapon_template" culture="Culture.empire">
+  <EquipmentSet>
+    <Equipment slot="Item0" id="Item.crossbow_d" />
+    <Equipment slot="Item1" id="Item.sturgia_axe_5_t5" />
+    <Equipment slot="Item2" id="Item.bolt_c" />
+    <Equipment slot="Item3" id="Item.desert_round_shield" />
+    <Equipment slot="Head" id="Item.tor_tilean_head_helm_brass_knight_001" />
+    <Equipment slot="Body" id="Item.aserai_chain_plate_armor_a" />
+    <Equipment slot="Cape" id="Item.aserai_scale_shoulder_c" />
+    <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+    <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+  </EquipmentSet>
+  <EquipmentSet civilian="true">
+    <Equipment slot="Item0" id="Item.crossbow_d" />
+    <Equipment slot="Item1" id="Item.sturgia_axe_5_t5" />
+    <Equipment slot="Item2" id="Item.bolt_c" />
+    <Equipment slot="Item3" id="Item.desert_round_shield" />
+    <Equipment slot="Head" id="Item.tor_tilean_head_helm_brass_knight_001" />
+    <Equipment slot="Body" id="Item.aserai_chain_plate_armor_a" />
+    <Equipment slot="Cape" id="Item.aserai_scale_shoulder_c" />
+    <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+    <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+  </EquipmentSet>
+</EquipmentRoster>
+ <!-- Chaos Dwarf Blunderbuss-->
+ <EquipmentRoster id="tor_chaos_dwarf_blunderbuss_template" culture="Culture.empire">
+  <EquipmentSet>
+    <Equipment slot="Item0" id="Item.tor_chaos_dwarf_blunderbuss" />
+    <Equipment slot="Item1" id="Item.sturgia_axe_5_t5" />
+    <Equipment slot="Item2" id="Item.tor_neutral_weapon_ammo_musket_ball_scatter" />
+    <Equipment slot="Item3" id="Item.desert_round_shield" />
+    <Equipment slot="Head" id="Item.tor_tilean_head_helm_brass_knight_001" />
+    <Equipment slot="Body" id="Item.aserai_chain_plate_armor_a" />
+    <Equipment slot="Cape" id="Item.aserai_scale_shoulder_c" />
+    <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+    <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+  </EquipmentSet>
+  <EquipmentSet civilian="true">
+    <Equipment slot="Item0" id="Item.tor_chaos_dwarf_blunderbuss" />
+    <Equipment slot="Item1" id="Item.sturgia_axe_5_t5" />
+    <Equipment slot="Item2" id="Item.tor_neutral_weapon_ammo_musket_ball_scatter" />
+    <Equipment slot="Item3" id="Item.desert_round_shield" />
+    <Equipment slot="Head" id="Item.tor_tilean_head_helm_brass_knight_001" />
+    <Equipment slot="Body" id="Item.aserai_chain_plate_armor_a" />
+    <Equipment slot="Cape" id="Item.aserai_scale_shoulder_c" />
+    <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+    <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+  </EquipmentSet>
+</EquipmentRoster>
+ <!-- Chaos Dwarf Infernal Guard-->
+ <EquipmentRoster id="tor_chaos_dwarf_infernal_guard_template" culture="Culture.empire">
+  <EquipmentSet>
+    <Equipment slot="Item0" id="Item.sturgia_axe_5_t5" />
+    <Equipment slot="Item1" id="Item." />
+    <Equipment slot="Item2" id="Item." />
+    <Equipment slot="Item3" id="Item.wide_heater_shield" />
+    <Equipment slot="Head" id="Item.tor_chaos_head_helm_marauder_004" />
+    <Equipment slot="Body" id="Item.aserai_brass_plate_a" />
+    <Equipment slot="Cape" id="Item.noble_pauldron_with_scarf" />
+    <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+    <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+  </EquipmentSet>
+  <EquipmentSet civilian="true">
+    <Equipment slot="Item0" id="Item.sturgia_axe_5_t5" />
+    <Equipment slot="Item1" id="Item." />
+    <Equipment slot="Item2" id="Item." />
+    <Equipment slot="Item3" id="Item.wide_heater_shield" />
+    <Equipment slot="Head" id="Item.tor_chaos_head_helm_marauder_004" />
+    <Equipment slot="Body" id="Item.aserai_brass_plate_a" />
+    <Equipment slot="Cape" id="Item.noble_pauldron_with_scarf" />
+    <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+    <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+  </EquipmentSet>
+</EquipmentRoster>
+ <!-- Chaos Dwarf Infernal Guard Greatweapon-->
+ <EquipmentRoster id="tor_chaos_dwarf_infernal_guard_greatweapon_template" culture="Culture.empire">
+  <EquipmentSet>
+    <Equipment slot="Item0" id="Item.tor_chaos_2h_weapon_chosen_greataxe_001" />
+    <Equipment slot="Item1" id="Item." />
+    <Equipment slot="Item2" id="Item." />
+    <Equipment slot="Item3" id="Item." />
+    <Equipment slot="Head" id="Item.tor_chaos_head_helm_marauder_004" />
+    <Equipment slot="Body" id="Item.aserai_brass_plate_a" />
+    <Equipment slot="Cape" id="Item.noble_pauldron_with_scarf" />
+    <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+    <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+  </EquipmentSet>
+  <EquipmentSet civilian="true">
+    <Equipment slot="Item0" id="Item.tor_chaos_2h_weapon_chosen_greataxe_001" />
+    <Equipment slot="Item1" id="Item." />
+    <Equipment slot="Item2" id="Item." />
+    <Equipment slot="Item3" id="Item." />
+    <Equipment slot="Head" id="Item.tor_chaos_head_helm_marauder_004" />
+    <Equipment slot="Body" id="Item.aserai_brass_plate_a" />
+    <Equipment slot="Cape" id="Item.noble_pauldron_with_scarf" />
+    <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+    <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+  </EquipmentSet>
+</EquipmentRoster>
+ <!-- Chaos Dwarf Infernal Guard Fireglaive-->
+ <EquipmentRoster id="tor_chaos_dwarf_infernal_guard_fireglaive_template" culture="Culture.empire">
+  <EquipmentSet>
+    <Equipment slot="Item0" id="Item.tor_chaos_dwarf_fireglaive" />
+    <Equipment slot="Item1" id="Item.tor_chaos_weapon_halberd_001" />
+    <Equipment slot="Item2" id="Item.tor_neutral_weapon_ammo_musket_ball" />
+    <Equipment slot="Item3" id="Item.tor_chaos_dwarf_enscorcelled_axe" />
+    <Equipment slot="Head" id="Item.tor_chaos_head_helm_marauder_004" />
+    <Equipment slot="Body" id="Item.lamellar_with_scale_skirt" />
+    <Equipment slot="Cape" id="Item.aserai_scale_shoulder_d" />
+    <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+    <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+  </EquipmentSet>
+  <EquipmentSet civilian="true">
+    <Equipment slot="Item0" id="Item.tor_chaos_dwarf_fireglaive" />
+    <Equipment slot="Item1" id="Item.tor_chaos_weapon_halberd_001" />
+    <Equipment slot="Item2" id="Item.tor_neutral_weapon_ammo_musket_ball" />
+    <Equipment slot="Item3" id="Item.tor_chaos_dwarf_enscorcelled_axe" />
+    <Equipment slot="Head" id="Item.tor_chaos_head_helm_marauder_004" />
+    <Equipment slot="Body" id="Item.lamellar_with_scale_skirt" />
+    <Equipment slot="Cape" id="Item.aserai_scale_shoulder_d" />
+    <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+    <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+  </EquipmentSet>
+</EquipmentRoster>
+ <!-- Chaos Dwarf Infernal Ironsworn-->
+<EquipmentRoster id="tor_chaos_dwarf_infernal_ironswon_template" culture="Culture.empire">
+  <EquipmentSet>
+    <Equipment slot="Item0" id="Item.tor_chaos_dwarf_naptha_bomb" />
+    <Equipment slot="Item1" id="Item.tor_chaos_dwarf_enscorcelled_axe" />
+    <Equipment slot="Item2" id="Item." />
+    <Equipment slot="Item3" id="Item.wide_heater_shield" />
+    <Equipment slot="Head" id="Item.tor_chaos_head_helm_marauder_004" />
+    <Equipment slot="Body" id="Item.lamellar_with_scale_skirt" />
+    <Equipment slot="Cape" id="Item.aserai_scale_shoulder_d" />
+    <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+    <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+  </EquipmentSet>
+  <EquipmentSet civilian="true">
+    <Equipment slot="Item0" id="Item.tor_chaos_dwarf_naptha_bomb" />
+    <Equipment slot="Item1" id="Item.tor_chaos_dwarf_enscorcelled_axe" />
+    <Equipment slot="Item2" id="Item." />
+    <Equipment slot="Item3" id="Item.wide_heater_shield" />
+    <Equipment slot="Head" id="Item.tor_chaos_head_helm_marauder_004" />
+    <Equipment slot="Body" id="Item.lamellar_with_scale_skirt" />
+    <Equipment slot="Cape" id="Item.aserai_scale_shoulder_d" />
+    <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+    <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+  </EquipmentSet>
+  <EquipmentSet>
+    <Equipment slot="Item0" id="Item.tor_chaos_dwarf_naptha_bomb" />
+    <Equipment slot="Item1" id="Item.tor_chaos_dwarf_enscorcelled_axe" />
+    <Equipment slot="Item2" id="Item." />
+    <Equipment slot="Item3" id="Item.wide_heater_shield" />
+    <Equipment slot="Head" id="Item.tor_chaos_head_helm_marauder_004" />
+    <Equipment slot="Body" id="Item.lamellar_with_scale_skirt" />
+    <Equipment slot="Cape" id="Item.aserai_scale_shoulder_c" />
+    <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+    <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+  </EquipmentSet>
+  <EquipmentSet civilian="true">
+    <Equipment slot="Item0" id="Item.tor_chaos_dwarf_naptha_bomb" />
+    <Equipment slot="Item1" id="Item.tor_chaos_dwarf_enscorcelled_axe" />
+    <Equipment slot="Item2" id="Item." />
+    <Equipment slot="Item3" id="Item.wide_heater_shield" />
+    <Equipment slot="Head" id="Item.tor_chaos_head_helm_marauder_004" />
+    <Equipment slot="Body" id="Item.lamellar_with_scale_skirt" />
+    <Equipment slot="Cape" id="Item.aserai_scale_shoulder_c" />
+    <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+    <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+  </EquipmentSet>
+  <EquipmentSet>
+    <Equipment slot="Item0" id="Item.tor_chaos_dwarf_naptha_bomb" />
+    <Equipment slot="Item1" id="Item.tor_chaos_dwarf_enscorcelled_axe" />
+    <Equipment slot="Item2" id="Item." />
+    <Equipment slot="Item3" id="Item.wide_heater_shield" />
+    <Equipment slot="Head" id="Item.tor_chaos_head_helm_marauder_004" />
+    <Equipment slot="Body" id="Item.imperial_scale_armor" />
+    <Equipment slot="Cape" id="Item.aserai_scale_shoulder_d" />
+    <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+    <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+  </EquipmentSet>
+  <EquipmentSet civilian="true">
+    <Equipment slot="Item0" id="Item.tor_chaos_dwarf_naptha_bomb" />
+    <Equipment slot="Item1" id="Item.tor_chaos_dwarf_enscorcelled_axe" />
+    <Equipment slot="Item2" id="Item." />
+    <Equipment slot="Item3" id="Item.wide_heater_shield" />
+    <Equipment slot="Head" id="Item.tor_chaos_head_helm_marauder_004" />
+    <Equipment slot="Body" id="Item.imperial_scale_armor" />
+    <Equipment slot="Cape" id="Item.aserai_scale_shoulder_d" />
+    <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+    <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+  </EquipmentSet>
+</EquipmentRoster>
+<!-- Chaos Dwarf Engineer -->
+<EquipmentRoster id="tor_chaos_dwarf_infernal_engineer" culture="Culture.empire">
+  <EquipmentSet>
+    <Equipment slot="Item0" id="Item.tor_empire_weapon_gun_flintlock_pistol_005" />
+    <Equipment slot="Item1" id="Item.tor_neutral_weapon_ammo_musket_ball" />
+    <Equipment slot="Item2" id="Item.northern_battle_axe_t3" />
+    <Equipment slot="Item3" id="Item.tor_neutral_weapon_ammo_musket_ball" />
+    <Equipment slot="Head" id="Item.brass_aserai_helmet_leather" />
+    <Equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+    <Equipment slot="Cape" id="Item.a_brass_lamellar_shoulder_a" />
+    <Equipment slot="Gloves" id="Item.leather_gloves" />
+    <Equipment slot="Leg" id="Item.wrapped_leather_boots" />
+  </EquipmentSet>
+  <EquipmentSet civilian="true">
+    <Equipment slot="Item0" id="Item.tor_empire_weapon_gun_flintlock_pistol_005" />
+    <Equipment slot="Item1" id="Item." />
+    <Equipment slot="Item2" id="Item.northern_battle_axe_t3" />
+    <Equipment slot="Item3" id="Item." />
+    <Equipment slot="Head" id="Item.brass_aserai_helmet_leather" />
+    <Equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+    <Equipment slot="Cape" id="Item.a_brass_lamellar_shoulder_a" />
+    <Equipment slot="Gloves" id="Item.leather_gloves" />
+    <Equipment slot="Leg" id="Item.wrapped_leather_boots" />
+  </EquipmentSet>
+</EquipmentRoster>
 </EquipmentRosters>

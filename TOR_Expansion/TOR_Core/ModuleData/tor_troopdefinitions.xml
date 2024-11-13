@@ -4610,11 +4610,104 @@
       <EquipmentSet id="tor_ti_vittorio_template" civilian="true" />
     </Equipments>
   </NPCCharacter>
+<!-- Chaos Dwarf Hobgoblin Troop Tree-->
+<NPCCharacter id="tor_chaos_dwarf_goblin_slave" default_group="infantry" level="6" name="{=str_tor_chaos_dwarf_goblin_slave}Goblin Slave" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level6" is_basic_troop="true">
+  <face>
+    <face_key_template value="BodyProperty.hobgoblin" />
+  </face>
+  <upgrade_targets>
+    <upgrade_target id="NPCCharacter.tor_chaos_dwarf_hobgoblin_wild" />
+  </upgrade_targets>
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_goblin_slave" />
+    <EquipmentSet id="tor_chaos_dwarf_goblin_slave" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<NPCCharacter id="tor_chaos_dwarf_hobgoblin_wild" default_group="infantry" level="11" name="{=str_tor_chaos_dwarf_hobgoblin_wild}Hobgoblin Wild" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level11">
+  <face>
+    <face_key_template value="BodyProperty.hobgoblin" />
+  </face>
+  <upgrade_targets>
+    <upgrade_target id="NPCCharacter.tor_chaos_dwarf_hobgoblin_cutthroat" />
+    <upgrade_target id="NPCCharacter.tor_chaos_dwarf_hobgoblin_archer" />
+    <upgrade_target id="NPCCharacter.tor_chaos_dwarf_hobgoblin_wolf_rider" />
+  </upgrade_targets>
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_hobgoblin_wild" />
+    <EquipmentSet id="tor_chaos_dwarf_hobgoblin_wild" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<NPCCharacter id="tor_chaos_dwarf_hobgoblin_cutthroat" default_group="infantry" level="16" name="{=str_tor_chaos_dwarf_hobgoblin_cutthroat}Hobgoblin Cutthroat" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level16">
+  <face>
+    <face_key_template value="BodyProperty.hobgoblin" />
+  </face>
+  <upgrade_targets>
+    <upgrade_target id="NPCCharacter.tor_chaos_dwarf_hobgoblin_sneaky_git" />
+  </upgrade_targets>
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_hobgoblin_cutthroat" />
+    <EquipmentSet id="tor_chaos_dwarf_hobgoblin_cutthroat" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<NPCCharacter id="tor_chaos_dwarf_hobgoblin_archer" default_group="ranged" level="16" name="{=str_tor_chaos_dwarf_hobgoblin_archer}Hobgoblin Archer" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level16">
+  <face>
+    <face_key_template value="BodyProperty.hobgoblin" />
+  </face>
+  <upgrade_targets>
+    <upgrade_target id="NPCCharacter.tor_chaos_dwarf_hobgoblin_marksman" />
+  </upgrade_targets>
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_hobgoblin_archer" />
+    <EquipmentSet id="tor_chaos_dwarf_hobgoblin_archer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<NPCCharacter id="tor_chaos_dwarf_hobgoblin_wolf_rider" default_group="cavalry" level="16" name="{=str_tor_chaos_dwarf_hobgoblin_wolf_rider}Hobgoblin Wolf Rider" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level16">
+  <face>
+    <face_key_template value="BodyProperty.hobgoblin" />
+  </face>
+  <upgrade_targets>
+    <upgrade_target id="NPCCharacter.tor_chaos_dwarf_hobgoblin_wolf_raider" />
+  </upgrade_targets>
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_hobgoblin_wolf_rider" />
+    <EquipmentSet id="tor_chaos_dwarf_hobgoblin_wolf_rider" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<NPCCharacter id="tor_chaos_dwarf_hobgoblin_sneaky_git" default_group="infantry" level="21" name="{=str_tor_chaos_dwarf_hobgoblin_sneaky_git}Hobgoblin Sneaky Git" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level21">
+  <face>
+    <face_key_template value="BodyProperty.hobgoblin" />
+  </face>
+  <upgrade_targets/>
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_hobgoblin_sneaky_git" />
+    <EquipmentSet id="tor_chaos_dwarf_hobgoblin_sneaky_git" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<NPCCharacter id="tor_chaos_dwarf_hobgoblin_marksman" default_group="ranged" level="21" name="{=str_tor_chaos_dwarf_hobgoblin_marksman}Hobgoblin Marksman" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level21">
+  <face>
+    <face_key_template value="BodyProperty.hobgoblin" />
+  </face>
+  <upgrade_targets />
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_hobgoblin_marksman" />
+    <EquipmentSet id="tor_chaos_dwarf_hobgoblin_marksman" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<NPCCharacter id="tor_chaos_dwarf_hobgoblin_wolf_raider" default_group="horsearcher" level="21" name="{=str_tor_chaos_dwarf_hobgoblin_wolf_raider}Hobgoblin Wolf Raider" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level21">
+  <face>
+    <face_key_template value="BodyProperty.hobgoblin" />
+  </face>
+  <upgrade_targets />
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_hobgoblin_wolf_raider" />
+    <EquipmentSet id="tor_chaos_dwarf_hobgoblin_wolf_raider" civilian="true" />
+  </Equipments>
+</NPCCharacter>
 
 <!--Chaos Dwarf Troop Tree -->
-<NPCCharacter id="tor_chaos_dwarf_rigger" default_group="infantry" level="21" name="{=str_tor_chaos_dwarf_rigger}Chaos Dwarf Rigger" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level21">
+<NPCCharacter id="tor_chaos_dwarf_rigger" default_group="infantry" level="21" name="{=str_tor_chaos_dwarf_rigger}Chaos Dwarf Rigger" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level21" is_basic_troop="true">
   <face>
-    <face_key_template value="BodyProperty.fighter_empire" />
+    <face_key_template value="BodyProperty.dwarf" />
   </face>
   <upgrade_targets>
     <upgrade_target id="NPCCharacter.tor_chaos_dwarf_warrior" />
@@ -4622,107 +4715,519 @@
     <upgrade_target id="NPCCharacter.tor_chaos_dwarf_crossbow" />
   </upgrade_targets>
   <Equipments>
-    <EquipmentSet id="" />
-    <EquipmentSet id="" civilian="true" />
+    <EquipmentSet id="tor_chaos_dwarf_rigger_template" />
+    <EquipmentSet id="tor_chaos_dwarf_rigger_template" civilian="true" />
   </Equipments>
 </NPCCharacter>
 <!-- Level 2-->
 <NPCCharacter id="tor_chaos_dwarf_warrior" default_group="infantry" level="26" name="{=str_tor_chaos_dwarf_warrior}Chaos Dwarf Warrior" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level26">
   <face>
-    <face_key_template value="BodyProperty.fighter_empire" />
+    <face_key_template value="BodyProperty.dwarf" />
   </face>
   <upgrade_targets>
     <upgrade_target id="NPCCharacter.tor_chaos_dwarf_infernal_guard" />
   </upgrade_targets>
   <Equipments>
-    <EquipmentSet id="" />
-    <EquipmentSet id="" civilian="true" />
+    <EquipmentSet id="tor_chaos_dwarf_warrior_template" />
+    <EquipmentSet id="tor_chaos_dwarf_warrior_template" civilian="true" />
   </Equipments>
 </NPCCharacter>
 <NPCCharacter id="tor_chaos_dwarf_warrior_greatweapon" default_group="infantry" level="26" name="{=str_tor_chaos_dwarf_warrior_greatweapon}Chaos Dwarf Warrior Greatweapon" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level26">
   <face>
-    <face_key_template value="BodyProperty.fighter_empire" />
+    <face_key_template value="BodyProperty.dwarf" />
   </face>
   <upgrade_targets>
     <upgrade_target id="NPCCharacter.tor_chaos_dwarf_infernal_guard_greatweapon" />
   </upgrade_targets>
   <Equipments>
-    <EquipmentSet id="" />
-    <EquipmentSet id="" civilian="true" />
+    <EquipmentSet id="tor_chaos_dwarf_warrior_greatweapon_template" />
+    <EquipmentSet id="tor_chaos_dwarf_warrior_greatweapon_template" civilian="true" />
   </Equipments>
 </NPCCharacter>
 <NPCCharacter id="tor_chaos_dwarf_crossbow" default_group="ranged" level="26" name="{=str_tor_chaos_dwarf_crossbow}Chaos Dwarf Crossbow" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level26">
   <face>
-    <face_key_template value="BodyProperty.fighter_empire" />
+    <face_key_template value="BodyProperty.dwarf" />
   </face>
   <upgrade_targets>
     <upgrade_target id="NPCCharacter.tor_chaos_dwarf_blunderbuss" />
   </upgrade_targets>
   <Equipments>
-    <EquipmentSet id="" />
-    <EquipmentSet id="" civilian="true" />
+    <EquipmentSet id="tor_chaos_dwarf_warrior_greatweapon_template" />
+    <EquipmentSet id="tor_chaos_dwarf_warrior_greatweapon_template" civilian="true" />
   </Equipments>
 </NPCCharacter>
 <!-- Level 3-->
 <NPCCharacter id="tor_chaos_dwarf_infernal_guard" default_group="infantry" level="31" name="{=str_tor_chaos_dwarf_infernal_guard}Chaos Dwarf Infernal Guard" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level31">
   <face>
-    <face_key_template value="BodyProperty.fighter_empire" />
+    <face_key_template value="BodyProperty.dwarf" />
   </face>
   <upgrade_targets>
     <upgrade_target id="NPCCharacter.tor_chaos_dwarf_infernal_ironsworn" />
   </upgrade_targets>
   <Equipments>
-    <EquipmentSet id="" />
-    <EquipmentSet id="" civilian="true" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_guard_template" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_guard_template" civilian="true" />
   </Equipments>
 </NPCCharacter>
 <NPCCharacter id="tor_chaos_dwarf_infernal_guard_greatweapon" default_group="infantry" level="31" name="{=str_tor_chaos_dwarf_infernal_guard_greatweapon}Chaos Dwarf Infernal Guard Greatweapon" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level31">
   <face>
-    <face_key_template value="BodyProperty.fighter_empire" />
+    <face_key_template value="BodyProperty.dwarf" />
   </face>
   <upgrade_targets>
     <upgrade_target id="NPCCharacter.tor_chaos_dwarf_infernal_ironsworn" />
   </upgrade_targets>
   <Equipments>
-    <EquipmentSet id="" />
-    <EquipmentSet id="" civilian="true" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_guard_greatweapon_template" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_guard_greatweapon_template" civilian="true" />
   </Equipments>
 </NPCCharacter>
 <NPCCharacter id="tor_chaos_dwarf_blunderbuss" default_group="ranged" level="31" name="{=str_tor_chaos_dwarf_blunderbuss}Chaos Dwarf Blunderbuss" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level31">
   <face>
-    <face_key_template value="BodyProperty.fighter_empire" />
+    <face_key_template value="BodyProperty.dwarf" />
   </face>
   <upgrade_targets>
     <upgrade_target id="NPCCharacter.tor_chaos_dwarf_infernal_guard_fireglaive" />
   </upgrade_targets>
   <Equipments>
-    <EquipmentSet id="" />
-    <EquipmentSet id="" civilian="true" />
+    <EquipmentSet id="tor_chaos_dwarf_blunderbuss_template" />
+    <EquipmentSet id="tor_chaos_dwarf_blunderbuss_template" civilian="true" />
   </Equipments>
 </NPCCharacter>
 <!-- Level 4-->
 <NPCCharacter id="tor_chaos_dwarf_infernal_ironsworn" default_group="infantry" level="36" name="{=str_tor_chaos_dwarf_infernal_ironsworn}Chaos Dwarf Infernal Ironsworn" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level36">
   <face>
-    <face_key_template value="BodyProperty.fighter_empire" />
+    <face_key_template value="BodyProperty.dwarf" />
+    <beard_tags>
+      <beard_tag name="LongScragglyBeard" />
+      <beard_tag name="HeavyLongBeard" />
+      <beard_tag name="LongBeard" />
+      <beard_tag name="LongTiedBeard" />
+      <beard_tag name="DroopingMustacheAndBeard" />
+      <beard_tag name="TiedBeardShavenCheeks" />
+      <beard_tag name="DutchTiedBeard" />
+    </beard_tags>
   </face>
-  <upgrade_targets>
-    <upgrade_target id="NPCCharacter." />
-  </upgrade_targets>
+  <upgrade_targets />
   <Equipments>
-    <EquipmentSet id="" />
-    <EquipmentSet id="" civilian="true" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_ironswon_template" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_ironswon_template" civilian="true" />
   </Equipments>
 </NPCCharacter>
-<NPCCharacter id="tor_chaos_dwarf_infernal_guard_fireglaive" default_group="infantry" level="36" name="{=str_tor_chaos_dwarf_infernal_guard_fireglaive}Chaos Dwarf Infernal Guard Fireglaive" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level36">
+<NPCCharacter id="tor_chaos_dwarf_infernal_guard_fireglaive" default_group="ranged" level="36" name="{=str_tor_chaos_dwarf_infernal_guard_fireglaive}Chaos Dwarf Infernal Guard Fireglaive" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level36">
   <face>
-    <face_key_template value="BodyProperty.fighter_empire" />
+    <face_key_template value="BodyProperty.dwarf" />
+    <beard_tags>
+      <beard_tag name="LongScragglyBeard" />
+      <beard_tag name="HeavyLongBeard" />
+      <beard_tag name="LongBeard" />
+      <beard_tag name="LongTiedBeard" />
+      <beard_tag name="DroopingMustacheAndBeard" />
+      <beard_tag name="TiedBeardShavenCheeks" />
+      <beard_tag name="DutchTiedBeard" />
+    </beard_tags>
+  </face>
+  <upgrade_targets />
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_guard_fireglaive_template" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_guard_fireglaive_template" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+
+<!-- Chaos Dwarf Infernal Engineer Track-->
+<NPCCharacter id="tor_chaos_dwarf_infernal_engineer_novice" default_group="ranged" level="11" name="{=str_tor_chaos_dwarf_infernal_engineer_novice}Chaos Dwarf Infernal Engineer Novice" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level11">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
   </face>
   <upgrade_targets>
-    <upgrade_target id="NPCCharacter." />
+    <upgrade_target id="NPCCharacter.tor_chaos_dwarf_infernal_engineer_initiate" />
   </upgrade_targets>
   <Equipments>
-    <EquipmentSet id="" />
-    <EquipmentSet id="" civilian="true" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<NPCCharacter id="tor_chaos_dwarf_infernal_engineer_initiate" default_group="ranged" level="16" name="{=str_tor_chaos_dwarf_infernal_engineer_initiate}Chaos Dwarf Infernal Engineer Initiate" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level16">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets>
+    <upgrade_target id="NPCCharacter.tor_chaos_dwarf_infernal_engineer_adept" />
+  </upgrade_targets>
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<NPCCharacter id="tor_chaos_dwarf_infernal_engineer_adept" default_group="ranged" level="21" name="{=str_tor_chaos_dwarf_infernal_engineer_adept}Chaos Dwarf Infernal Engineer Adept" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level21">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets>
+    <upgrade_target id="NPCCharacter.tor_chaos_dwarf_infernal_engineer_master" />
+  </upgrade_targets>
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<NPCCharacter id="tor_chaos_dwarf_infernal_engineer_master" default_group="ranged" level="26" name="{=str_tor_chaos_dwarf_infernal_engineer_master}Chaos Dwarf Infernal Master Engineer" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level26">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets />
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+
+<!-- Dwarfven Mountain Holds Troop Tree -->
+<!-- Dwarf Miner -->
+<NPCCharacter id="tor_dwarf_miner" default_group="infantry" level="11" name="{=tor_dwarf_miner}Dwarf Miner" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level11" is_basic_troop="true">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets>
+    <upgrade_target id="NPCCharacter.tor_dwarf_warrior" />
+    <upgrade_target id="NPCCharacter.tor_dwarf_miner_blasting_charges" />
+    <upgrade_target id="NPCCharacter.tor_dwarf_quarreler" />
+  </upgrade_targets>
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<!--  Dwarf Warrior -->
+<NPCCharacter id="tor_dwarf_warrior" default_group="infantry" level="16" name="{=tor_dwarf_warrior}Dwarf Warrior" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level16">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets>
+    <upgrade_target id="NPCCharacter.tor_dwarf_longbeard" />
+    <upgrade_target id="NPCCharacter.tor_dwarf_longbeard_greatweapon" />
+  </upgrade_targets>
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<!-- Dwarf Miner Blasting Charges -->
+<NPCCharacter id="tor_dwarf_miner_blasting_charges" default_group="infantry" level="16" name="{=tor_dwarf_miner_blasting_charges}Dwarf Miner Blasting Charges" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level16">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets />
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<!-- Dwarf Quarreler -->
+<NPCCharacter id="tor_dwarf_quarreler" default_group="ranged" level="16" name="{=tor_dwarf_quarreler}Dwarf Quarreler" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level16">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets>
+    <upgrade_target id="NPCCharacter.tor_dwarf_ranger" />
+    <upgrade_target id="NPCCharacter.tor_dwarf_thunderer" />
+  </upgrade_targets>
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<!--  Dwarf Longbeard  -->
+<NPCCharacter id="tor_dwarf_longbeard" default_group="infantry" level="21" name="{=str_tor_dwarf_longbeard}Dwarf Longbeard" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level21">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets>
+    <upgrade_target id="NPCCharacter.tor_dwarf_longbeard_elder" />
+  </upgrade_targets>
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<!--  Dwarf Longbeard Greatweapon  -->
+<NPCCharacter id="tor_dwarf_longbeard_greatweapon" default_group="infantry" level="21" name="{=str_tor_dwarf_longbeard_greatweapon}Dwarf Longbeard Greatweapon" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level21">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets>
+    <upgrade_target id="NPCCharacter.tor_dwarf_longbeard_elder_greatweapon" />
+  </upgrade_targets>
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+
+<!--  Dwarf Ranger -->
+<NPCCharacter id="tor_dwarf_ranger" default_group="ranged" level="21" name="{=str_tor_dwarf_ranger}Dwarf Ranger" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level21">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets>
+    <upgrade_target id="NPCCharacter.tor_dwarf_ranger_deadeye" />
+  </upgrade_targets>
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<!--  Dwarf Thunderer  -->
+<NPCCharacter id="tor_dwarf_thunderer" default_group="ranged" level="21" name="{=str_tor_dwarf_thunderer}Dwarf Thunderer" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level21">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets>
+    <upgrade_target id="NPCCharacter.tor_dwarf_thunderer_veteran" />
+  </upgrade_targets>
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<!--  Dwarf Longbeard Elder -->
+<NPCCharacter id="tor_dwarf_longbeard_elder" default_group="infantry" level="26" name="{=str_tor_dwarf_longbeard_elder}Dwarf Longbeard Elder" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level26">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets>
+    <upgrade_targets />
+  </upgrade_targets>
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<!--  Dwarf Longbeard Elder Greatweapon -->
+<NPCCharacter id="tor_dwarf_longbeard_elder_greatweapon" default_group="infantry" level="26" name="{=str_tor_dwarf_longbeard_elder_greatweapon}Dwarf Longbeard Elder Greatweapon" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level26">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets>
+    <upgrade_targets />
+  </upgrade_targets>
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<!--  Dwarf Ranger Deadeye -->
+<NPCCharacter id="tor_dwarf_ranger_deadeye" default_group="ranged" level="26" name="{=str_tor_dwarf_ranger_deadeye}Dwarf Ranger Deadeye" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level26">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets />
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<!-- Dwarf Thunderer Veteran -->
+<NPCCharacter id="tor_dwarf_thunderer_veteran" default_group="ranged" level="26" name="{=str_tor_dwarf_thunderer_veteran}Dwarf Thunderer Veteran" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level26">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets />
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+
+<!--  Dwarf Elite Troop Tree  -->
+<!-- Dwarf Hold Veteran -->
+<NPCCharacter id="tor_dwarf_hold_veteran" default_group="infantry" level="26" name="{=str_tor_dwarf_hold_veteran}Dwarf Hold Veteran" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level26" is_basic_troop="true">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets>
+    <upgrade_target id="NPCCharacter.tor_dwarf_ironbreaker" />
+    <upgrade_target id="NPCCharacter.tor_dwarf_hammerer" />
+    <upgrade_target id="NPCCharacter.tor_dwarf_irondrake" />
+  </upgrade_targets>
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<!--  Dwarf Ironbreaker -->
+<NPCCharacter id="tor_dwarf_ironbreaker" default_group="infantry" level="31" name="{=str_tor_dwarf_ironbreaker}Dwarf Ironbreaker" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level31">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets>
+    <upgrade_target id="NPCCharacter.tor_dwarf_ironbeard" />
+  </upgrade_targets>
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<!--  Dwarf Hammerer  -->
+<NPCCharacter id="tor_dwarf_hammerer" default_group="infantry" level="31" name="{=str_tor_dwarf_hammerer}Dwarf Hammerer" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level31">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets>
+    <upgrade_target id="NPCCharacter.tor_dwarf_royal_champion" />
+  </upgrade_targets>
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<!--  Dwarf Irondrake -->
+<NPCCharacter id="tor_dwarf_irondrake" default_group="ranged" level="31" name="{=str_tor_dwarf_irondrake}Dwarf Irondrake" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level31">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets>
+    <upgrade_target id="NPCCharacter.tor_dwarf_ironwarden" />
+  </upgrade_targets>
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<!--  Dwarf Ironbeard -->
+<NPCCharacter id="tor_dwarf_ironbeard" default_group="infantry" level="36" name="{=str_tor_dwarf_ironbeard}Dwarf Ironbeard" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level36">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets />
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<!-- Dwarf Royal Champion -->
+<NPCCharacter id="tor_dwarf_royal_champion" default_group="infantry" level="36" name="{=str_tor_dwarf_royal_champion}Dwarf Royal Champion" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level36">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets />
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<!-- Dwarf Ironwarden -->
+<NPCCharacter id="tor_dwarf_ironwarden" default_group="ranged" level="36" name="{=str_tor_dwarf_ironwarden}Dwarf Ironwarden" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level36">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets />
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+
+<!-- Dwarf Engineer Troop Tree  -->
+<!--  Dwarf Engineer Initiate -->
+<NPCCharacter id="tor_dwarf_engineer_initiate" default_group="infantry" level="21" name="{=str_tor_dwarf_engineer_initiate}Dwarf Engineer Initiate" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level21">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets>
+    <upgrade_target id="NPCCharacter.tor_dwarf_engineer" />
+  </upgrade_targets>
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<!-- Dwarf Engineer -->
+<NPCCharacter id="tor_dwarf_engineer" default_group="infantry" level="26" name="{=str_tor_dwarf_engineer}Dwarf Engineer" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level26">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets>
+    <upgrade_target id="NPCCharacter.tor_dwarf_engineer_sapper" />
+  </upgrade_targets>
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<!-- Dwarf Engineer Sapper -->
+<NPCCharacter id="tor_dwarf_engineer_sapper" default_group="infantry" level="31" name="{=str_tor_dwarf_engineer_sapper}Dwarf Engineer Sapper" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level31">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets>
+    <upgrade_target id="NPCCharacter.tor_dwarf_engineer_veteran" />
+  </upgrade_targets>
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<!-- Dwarf Engineer Veteran -->
+<NPCCharacter id="tor_dwarf_engineer_veteran" default_group="infantry" level="36" name="{=str_tor_dwarf_engineer_veteran}Dwarf Engineer Veteran" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level36">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets />
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+
+<!-- Dwarf Slayer Troop Tree  -->
+<!--  Dwarf Slayer -->
+<NPCCharacter id="tor_dwarf_slayer" default_group="infantry" level="21" name="{=str_tor_dwarf_slayer}Dwarf Slayer" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level21">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets>
+    <upgrade_target id="NPCCharacter.tor_dwarf_giant_slayer" />
+  </upgrade_targets>
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<!-- Dwarf Giant Slayer -->
+<NPCCharacter id="tor_dwarf_giant_slayer" default_group="infantry" level="26" name="{=str_tor_dwarf_giant_slayer}Dwarf Giant Slayer" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level26">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets>
+    <upgrade_target id="NPCCharacter.tor_dwarf_dragon_slayer" />
+  </upgrade_targets>
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<!-- Dwarf Dragon Slayer -->
+<NPCCharacter id="tor_dwarf_dragon_slayer" default_group="infantry" level="31" name="{=str_tor_dwarf_dragon_slayer}Dwarf Dragon Slayer" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level31">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets>
+    <upgrade_target id="NPCCharacter.tor_dwarf_daemon_slayer" />
+  </upgrade_targets>
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
+  </Equipments>
+</NPCCharacter>
+<!-- Dwarf Daemon Slayer -->
+<NPCCharacter id="tor_dwarf_daemon_slayer" default_group="infantry" level="36" name="{=str_tor_dwarf_daemon_slayer}Dwarf Daemon Slayer" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.tor_skills_level36">
+  <face>
+    <face_key_template value="BodyProperty.dwarf" />
+  </face>
+  <upgrade_targets />
+  <Equipments>
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" />
+    <EquipmentSet id="tor_chaos_dwarf_infernal_engineer" civilian="true" />
   </Equipments>
 </NPCCharacter>
 
