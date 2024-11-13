@@ -4338,6 +4338,7 @@
     <Description>"Even the far coasts of Lustria seem not to be spared of the taint of vampires. Legends say, a single mad Vampire, Luthor Harkon, established his own Colony. Legends say his mind is shattered since plundering a temple of the lizardmen that cursed him and his body. Many different personalities are fighting in his soul for control, some might call a curse or blessing. Crazy or not, he managed to conquer, and recruit many of the pirates in his undead army. Vampires, either looking for adventure or hunted in  Sylvania, search for a new life far from their former habitat, and they become captains and his first mates, to haunt the shores. May Sigmar protect any living sailor that has the misfortune to come across them."</Description>
   </ExtendedItemObjectProperties>
 <!-- Newly Added Items-->
+ <!-- Warriors of Chaos -->
 <ExtendedItemObjectProperties ItemStringId="tor_chaos_weapon_sword_002">
   <ItemTraits />
   <DamageProportions>
@@ -4363,6 +4364,28 @@
   <DamageProportions>
     <DamageProportionTuple DamageType="Physical" Percent="0.90" />
     <DamageProportionTuple DamageType="Fire" Percent="0.10" />
+  </DamageProportions>
+</ExtendedItemObjectProperties>
+<!-- Chaos Dwarfs Items-->
+<ExtendedItemObjectProperties ItemStringId="tor_chaos_dwarf_enscorcelled_axe">
+  <ItemTraits />
+  <DamageProportions>
+    <DamageProportionTuple DamageType="Physical" Percent="0.80" />
+    <DamageProportionTuple DamageType="Fire" Percent="0.10" />
+    <DamageProportionTuple DamageType="Magical" Percent="0.10" />
+  </DamageProportions>
+</ExtendedItemObjectProperties>
+<ExtendedItemObjectProperties ItemStringId="tor_chaos_dwarf_blunderbuss">
+  <ItemTraits />
+  <DamageProportions>
+    <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+  </DamageProportions>
+</ExtendedItemObjectProperties>
+<ExtendedItemObjectProperties ItemStringId="tor_chaos_dwarf_fireglaive">
+  <ItemTraits />
+  <DamageProportions>
+    <DamageProportionTuple DamageType="Physical" Percent="0.80" />
+    <DamageProportionTuple DamageType="Fire" Percent="0.20" />
   </DamageProportions>
 </ExtendedItemObjectProperties>
 </ArrayOfExtendedItemObjectProperties>
