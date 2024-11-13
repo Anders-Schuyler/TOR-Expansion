@@ -2237,16 +2237,6 @@
       <DamageProportionTuple DamageType="Physical" Percent="1.00" />
     </DamageProportions>
   </CharacterExtendedInfo>
-<!-- New Chaos Norscan Huscarl Unit -->
-  <CharacterExtendedInfo id="tor_chaos_norscan_huscarl">
-    <Abilities />
-    <Attributes />
-    <Resistances />
-    <DamageAmplifiers />
-    <DamageProportions>
-      <DamageProportionTuple DamageType="Physical" Percent="1.00" />
-    </DamageProportions>
-  </CharacterExtendedInfo>
   <CharacterExtendedInfo id="tor_chaos_aspiring_warrior">
     <Abilities />
     <Attributes />
@@ -2339,50 +2329,6 @@
       <DamageProportionTuple DamageType="Physical" Percent="1.00" />
     </DamageProportions>
   </CharacterExtendedInfo>
-<!-- New Chaos Warriors Greatweapon & Halberd-->
-<CharacterExtendedInfo id="tor_chaos_warrior_greatweapon">
-  <Abilities />
-  <Attributes />
-  <Resistances />
-  <DamageAmplifiers />
-  <DamageProportions>
-    <DamageProportionTuple DamageType="Physical" Percent="1.00" />
-  </DamageProportions>
-</CharacterExtendedInfo>
-<CharacterExtendedInfo id="tor_chaos_warrior_halberd">
-  <Abilities />
-  <Attributes />
-  <Resistances />
-  <DamageAmplifiers />
-  <DamageProportions>
-    <DamageProportionTuple DamageType="Physical" Percent="1.00" />
-  </DamageProportions>
-</CharacterExtendedInfo>
-<CharacterExtendedInfo id="tor_chaos_chosen_greatweapon">
-  <Abilities />
-  <Attributes>
-    <string>Unbreakable</string>
-  </Attributes>
-  <Resistances />
-  <DamageAmplifiers />
-  <DamageProportions>
-    <DamageProportionTuple DamageType="Physical" Percent="0.90" />
-    <DamageProportionTuple DamageType="Fire" Percent="0.10" />
-  </DamageProportions>
-</CharacterExtendedInfo>
-<CharacterExtendedInfo id="tor_chaos_chosen_halberd">
-  <Abilities />
-  <Attributes>
-    <string>Unbreakable</string>
-  </Attributes>
-  <Resistances />
-  <DamageAmplifiers />
-  <DamageProportions>
-    <DamageProportionTuple DamageType="Physical" Percent="0.90" />
-    <DamageProportionTuple DamageType="Fire" Percent="0.10" />
-  </DamageProportions>
-</CharacterExtendedInfo>
-<!-- End of New Chaos Units-->
   <CharacterExtendedInfo id="tor_chaos_caravan_ranged">
     <Abilities />
     <Attributes />
@@ -7147,4 +7093,208 @@
       <string>SpellsingerEnvoy</string>
     </Attributes>
   </CharacterExtendedInfo>
+<!-- New Units-->
+<CharacterExtendedInfo id="tor_chaos_norscan_huscarl">
+  <Abilities />
+  <Attributes />
+  <Resistances />
+  <DamageAmplifiers />
+  <DamageProportions>
+    <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+  </DamageProportions>
+</CharacterExtendedInfo>
+<!-- New Chaos Warriors Greatweapon & Halberd-->
+<CharacterExtendedInfo id="tor_chaos_warrior_greatweapon">
+  <Abilities />
+  <Attributes />
+  <Resistances />
+  <DamageAmplifiers />
+  <DamageProportions>
+    <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+  </DamageProportions>
+</CharacterExtendedInfo>
+<CharacterExtendedInfo id="tor_chaos_warrior_halberd">
+  <Abilities />
+  <Attributes />
+  <Resistances />
+  <DamageAmplifiers />
+  <DamageProportions>
+    <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+  </DamageProportions>
+</CharacterExtendedInfo>
+<CharacterExtendedInfo id="tor_chaos_chosen_greatweapon">
+  <Abilities />
+  <Attributes>
+    <string>Unbreakable</string>
+  </Attributes>
+  <Resistances />
+  <DamageAmplifiers />
+  <DamageProportions>
+    <DamageProportionTuple DamageType="Physical" Percent="0.90" />
+    <DamageProportionTuple DamageType="Fire" Percent="0.10" />
+  </DamageProportions>
+</CharacterExtendedInfo>
+<CharacterExtendedInfo id="tor_chaos_chosen_halberd">
+  <Abilities />
+  <Attributes>
+    <string>Unbreakable</string>
+  </Attributes>
+  <Resistances />
+  <DamageAmplifiers />
+  <DamageProportions>
+    <DamageProportionTuple DamageType="Physical" Percent="0.90" />
+    <DamageProportionTuple DamageType="Fire" Percent="0.10" />
+  </DamageProportions>
+</CharacterExtendedInfo>
+<!-- Chaos Dwarf Units-->
+<CharacterExtendedInfo id="tor_chaos_dwarf_rigger">
+  <Abilities />
+  <Attributes />
+  <Resistances />
+  <DamageAmplifiers />
+  <DamageProportions>
+    <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+  </DamageProportions>
+</CharacterExtendedInfo>
+<CharacterExtendedInfo id="tor_chaos_dwarf_warrior">
+  <Abilities />
+  <Attributes />
+  <Resistances >
+    <ResistanceTuple ResistedDamageType="Fire" ReductionPercent="0.15" />
+  </Resistances>
+  <DamageAmplifiers />
+  <DamageProportions>
+    <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+  </DamageProportions>
+</CharacterExtendedInfo>
+<CharacterExtendedInfo id="tor_chaos_warrior_greatweapon">
+  <Abilities />
+  <Attributes />
+  <Resistances >
+    <ResistanceTuple ResistedDamageType="Fire" ReductionPercent="0.15" />
+  </Resistances>
+  <DamageAmplifiers />
+  <DamageProportions>
+    <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+  </DamageProportions>
+</CharacterExtendedInfo>
+<CharacterExtendedInfo id="tor_chaos_dwarf_crossbow">
+  <Abilities />
+  <Attributes />
+  <Resistances >
+    <ResistanceTuple ResistedDamageType="Fire" ReductionPercent="0.15" />
+  </Resistances>
+  <DamageAmplifiers />
+  <DamageProportions>
+    <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+  </DamageProportions>
+</CharacterExtendedInfo>
+<CharacterExtendedInfo id="tor_chaos_dwarf_blunderbuss">
+  <Abilities />
+  <Attributes />
+  <Resistances >
+    <ResistanceTuple ResistedDamageType="Fire" ReductionPercent="0.15" />
+  </Resistances>
+  <DamageAmplifiers />
+  <DamageProportions>
+    <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+  </DamageProportions>
+</CharacterExtendedInfo>
+<CharacterExtendedInfo id="tor_chaos_dwarf_infernal_guard">
+  <Abilities />
+  <Attributes />
+  <Resistances >
+    <ResistanceTuple ResistedDamageType="Fire" ReductionPercent="0.25" />
+  </Resistances>
+  <DamageAmplifiers />
+  <DamageProportions>
+    <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+  </DamageProportions>
+</CharacterExtendedInfo>
+<CharacterExtendedInfo id="tor_chaos_dwarf_infernal_guard_greatweapon">
+  <Abilities />
+  <Attributes />
+  <Resistances>
+    <ResistanceTuple ResistedDamageType="Fire" ReductionPercent="0.25" />
+  </Resistances>
+  <DamageAmplifiers />
+  <DamageProportions>
+    <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+  </DamageProportions>
+</CharacterExtendedInfo>
+<CharacterExtendedInfo id="tor_chaos_dwarf_infernal_guard_fireglaive">
+  <Abilities />
+  <Attributes />
+  <Resistances >
+    <ResistanceTuple ResistedDamageType="Fire" ReductionPercent="0.25" />
+  </Resistances>
+  <DamageAmplifiers />
+  <DamageProportions>
+    <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+  </DamageProportions>
+</CharacterExtendedInfo>
+<CharacterExtendedInfo id="tor_chaos_dwarf_infernal_ironsworn">
+  <Abilities />
+  <Attributes />
+  <Resistances >
+    <ResistanceTuple ResistedDamageType="Fire" ReductionPercent="0.25" />
+  </Resistances>
+  <DamageAmplifiers />
+  <DamageProportions>
+    <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+  </DamageProportions>
+</CharacterExtendedInfo>
+<!-- Chaos Dwarf Infernal Engineer-->
+<CharacterExtendedInfo id="tor_chaos_dwarf_infernal_engineer_novice">
+  <Abilities />
+  <Attributes>
+    <string>ArtilleryCrew</string>
+  </Attributes>
+  <Resistances>
+    <ResistanceTuple ResistedDamageType="Fire" ReductionPercent="0.15" />
+  </Resistances>
+  <DamageAmplifiers />
+  <DamageProportions>
+    <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+  </DamageProportions>
+</CharacterExtendedInfo>
+<CharacterExtendedInfo id="tor_chaos_dwarf_infernal_engineer_initiate">
+  <Abilities />
+  <Attributes>
+    <string>ArtilleryCrew</string>
+  </Attributes>
+  <Resistances>
+    <ResistanceTuple ResistedDamageType="Fire" ReductionPercent="0.15" />
+  </Resistances>
+  <DamageAmplifiers />
+  <DamageProportions>
+    <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+  </DamageProportions>
+</CharacterExtendedInfo>
+<CharacterExtendedInfo id="tor_chaos_dwarf_infernal_engineer_adept">
+  <Abilities />
+  <Attributes>
+    <string>ArtilleryCrew</string>
+  </Attributes>
+  <Resistances>
+    <ResistanceTuple ResistedDamageType="Fire" ReductionPercent="0.15" />
+  </Resistances>
+  <DamageAmplifiers />
+  <DamageProportions>
+    <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+  </DamageProportions>
+</CharacterExtendedInfo>
+<CharacterExtendedInfo id="tor_chaos_dwarf_infernal_engineer_master">
+  <Abilities />
+  <Attributes>
+    <string>ArtilleryCrew</string>
+  </Attributes>
+  <Resistances>
+    <ResistanceTuple ResistedDamageType="Fire" ReductionPercent="0.15" />
+  </Resistances>
+  <DamageAmplifiers />
+  <DamageProportions>
+    <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+  </DamageProportions>
+</CharacterExtendedInfo>
 </ArrayOfCharacterExtendedInfo>
