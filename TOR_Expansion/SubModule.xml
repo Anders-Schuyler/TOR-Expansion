@@ -1,0 +1,93 @@
+<Module>
+	<Name value="The Old Realms - Expansion" />
+	<Id value="TOR_Expansion" />
+	<Version value="v1.2.11" />
+	<DefaultModule value="false"/>
+	<SingleplayerModule value="true"/>
+	<MultiplayerModule value="false"/>
+	<Official value="false"/>
+	<DependedModules>
+	    <DependedModule Id="Native" DependentVersion="v1.2.11"/>
+	    <DependedModule Id="SandBoxCore" DependentVersion="v1.2.11"/>
+	    <DependedModule Id="Sandbox" DependentVersion="v1.2.11"/>
+		<DependedModule Id="TOR_Armory" DependentVersion="v1.2.11" />
+		<DependedModule Id="TOR_Environment" DependentVersion="v1.2.11" />
+		<DependedModule Id="TOR_Core" DependentVersion="v1.2.11" />
+	</DependedModules>
+	<SubModules/>
+	<Xmls>
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="TOR_Core/ModuleData/tor_troopdefinitions" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+				<GameType value="CustomGame" />
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="TOR_Core/ModuleData/tor_charactertemplates" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="EquipmentRosters" path="TOR_Core/ModuleData/tor_equipment_sets" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+				<GameType value="CustomGame" />
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Items" path="TOR_Armory/ModuleData/tor_items/tor_armors"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Items" path="TOR_Armory/ModuleData/tor_items/tor_meleeweapons"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Items" path="TOR_Armory/ModuleData/tor_items/tor_projectiles"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Items" path="TOR_Armory/ModuleData/tor_items/tor_rangedweapons"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="SPCultures" path="TOR_Core/ModuleData/tor_cultures" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+				<GameType value="CustomGame" />
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="partyTemplates" path="TOR_Core/ModuleData/tor_partytemplates" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="GameText" path="TOR_Core/ModuleData/tor_strings" />
+		</XmlNode>
+	</Xmls>
+</Module>
